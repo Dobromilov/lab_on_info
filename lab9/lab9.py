@@ -18,7 +18,6 @@
 # print(integral)
 
 #2
-
 # from random import randint
 #
 # def f(a):
@@ -41,7 +40,20 @@
 #         x=0
 
 #3
-
+ # def distance(a,b):
+ #     arr=[]
+ #     for i in range(n):
+ #         arr.append(((b[0][0] - a[i][0])  2 + (b[0][1] - a[i][1])  2)**0.5)
+ #     for i in range(n):
+ #         if arr[i] == min(arr):
+ #             return a[i]
+ # n=int(input("Введите количество сокровищ: "))
+ # a,b=[[0]*2 for i in range(n)],[[0]*2]
+ # for i in range(n):
+ #     for j in range(2):
+ #         a[i][j] = int(input(f"Введите координату сокровища с позицией {i,j}: "))
+ # b[0][0],b[0][1] = int(input("Введите координату Сани с позицией (0,0): ")),int(input("Введите координату Сани с позицией (0,0): "))
+ # print(distance(a,b))
 
 #4
 # menu = [["Пицца Маргарита", ["мука", "томаты", "сыр", "базилик"], 10],
