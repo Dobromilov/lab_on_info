@@ -18,6 +18,7 @@
 # print(integral)
 
 #2
+
 # from random import randint
 #
 # def f(a):

@@ -1,14 +1,15 @@
 #1
 # file=open("file4.txt",encoding="UTF-8").readlines()
-# mx=0
+# array=set()
 # for x in file:
-#     text=x.split(" ")
-#     mx=max(mx,int(text[2]))
+#     text=x.strip().split(" ")
+#     array.add(int(text[2]))
+# array=sorted(array)[::-1]
 # for x in file:
-#     text=x.split(" ")
-#     if mx==int(text[2]):
-#         print(x)
-# file.close()
+#     text=x.strip().split(" ")
+#     if array[1]==int(text[2]):
+#         print(*text)
+#         exit()
 
 #2
 # for x in open('file5.txt',encoding="UTF-8").readlines():
